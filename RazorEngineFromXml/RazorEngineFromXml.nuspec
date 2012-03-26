@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+  <package>
+    <metadata>
+      <id>RazorEngineFromXml</id>
+      <version>$version$</version>
+      <authors>http://about.me/nootn</authors>
+      <owners>http://about.me/nootn</owners>
+      <projectUrl>https://github.com/nootn/RazorEngineFromXml/wiki</projectUrl>
+      <iconUrl>https://en.gravatar.com/userimage/3172408/16287e323f3bf3578271be411aadde84.jpg</iconUrl>
+      <requireLicenseAcceptance>false</requireLicenseAcceptance>
+      <description>This library was built to be used as an alternative to XSLT.  Using Razor in some situations might be "cleaner" than XSLT as you can perform Linq queries instead of XPath queries.</description>
+      <copyright>Copyright http://about.me/nootn 2012</copyright>
+      <tags>razor razorengine xslt transform xml template templating</tags>
+      <dependencies>
+        <dependency id="AmazedSaint.ElasticObject" />
+		<dependency id="RazorEngine" />
+      </dependencies>
+	 <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="net40" />
+	  <frameworkAssembly assemblyName="System" targetFramework="net40" />
+	  <frameworkAssembly assemblyName="System.Core" targetFramework="net40" />
+	  <frameworkAssembly assemblyName="System.Data" targetFramework="net40" />
+	  <frameworkAssembly assemblyName="System.Web.Razor" targetFramework="net40" />
+	  <frameworkAssembly assemblyName="System.Xml" targetFramework="net40" />
+	  <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework="net40" />
+    </frameworkAssemblies>
+    </metadata>
+  </package>

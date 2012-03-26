@@ -44,31 +44,18 @@
       <HintPath>..\packages\RazorEngine.3.0.8\lib\net40\System.Web.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DynamicExtensions.cs" />
-    <Compile Include="ElasticDemoModel\ElasticDemoGen.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ElasticDemoGen.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TemplateServiceXml.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ElasticDemoModel\ElasticDemoGen.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ElasticDemoGen.cs</LastGenOutput>
-    </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ElasticDemoModel\ElasticDemoModel.xml" />
-    <Content Include="ElasticDemoModel\ReadMe-ElasticObject.cs.txt" />
+    <None Include="RazorEngineFromXml.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
