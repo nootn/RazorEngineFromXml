@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorEngineFromXml", "RazorEngineFromXml\RazorEngineFromXml.csproj", "{0C500B6C-5D29-447E-8BBD-2A03F6D18E3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{87BBCF9F-B2DA-40C8-9934-7A2EB67F9DA3}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		RazorEngineFromXml.vsmdi = RazorEngineFromXml.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorEngineFromXml.Tests", "RazorEngineFromXml.Tests\RazorEngineFromXml.Tests.csproj", "{E945CB11-BC7A-42AE-ABE4-9F0E8AE4A298}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = RazorEngineFromXml.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C500B6C-5D29-447E-8BBD-2A03F6D18E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C500B6C-5D29-447E-8BBD-2A03F6D18E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C500B6C-5D29-447E-8BBD-2A03F6D18E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C500B6C-5D29-447E-8BBD-2A03F6D18E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E945CB11-BC7A-42AE-ABE4-9F0E8AE4A298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E945CB11-BC7A-42AE-ABE4-9F0E8AE4A298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E945CB11-BC7A-42AE-ABE4-9F0E8AE4A298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E945CB11-BC7A-42AE-ABE4-9F0E8AE4A298}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿@using System
+@using System.Linq
+@using RazorEngineFromXml
+@model dynamic
+<h1>
+    Testing traversing the entire object to find any values that are int's and spit
+    them out</h1>
+@helper ProcessItems(dynamic item)
+    {
+        object items = item.Elements;
+    @foreach (var currItem in items.Where(i => !string.IsNullOrEmpty(i.InternalValue)))
+    {
+        var valAsInt = -1;
+        if (int.TryParse(item.InternalValue, out valAsInt))
+        {
+        <li>Value is an int: @valAsInt</li>
+        }
+        else
+        {
+    <li>Value is not an int: @item.InternalValue</li>
+        }
+        ProcessItems(currItem);
+    }
+
+
+}
+<ul>
+    @ProcessItems(Model)
+</ul>
